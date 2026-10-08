@@ -1,0 +1,551 @@
+Design Style Specification
+1. Font Style
+Overall typography
+
+Use a cute, rounded, handwritten / hand-drawn children's font style throughout the design.
+
+The typography should feel:
+
+Friendly
+Playful
+Soft
+Child-oriented
+Slightly imperfect like handwritten lettering
+Thick enough to remain readable on mobile and when downloaded as an image
+Title — Diary
+
+The main title uses a large decorative handwritten/cartoon font.
+
+Characteristics:
+
+Very large
+Rounded letter shapes
+Bold
+Slightly irregular/hand-drawn
+Golden/yellow fill
+Dark brown outline
+Subtle textured/shaded appearance
+Looks like a children's storybook heading
+
+Example visual direction:
+
+        Diary
+
+The letters should feel illustrated rather than like standard web typography.
+
+Section/head/body text
+
+Use a rounded children's handwritten font for most English text.
+
+Examples:
+
+Date: 07/10/2026
+Day: Wednesday
+Class: Nursery D
+Prepared by: Mahmuda Akter
+
+Characteristics:
+
+Bold or medium-bold
+Rounded corners
+Black/dark charcoal
+High readability
+Friendly rather than corporate
+Bengali text
+
+Bengali text should also use a rounded, clean Bengali font that visually matches the playful English font.
+
+Do not use a formal newspaper-style Bengali font.
+
+For example:
+
+গণিত
+সংখ্যা লিখ (০০–৪০)
+ইসলাম শিক্ষা
+হরফ শিক্ষা
+
+The Bengali typography should remain highly readable even when decorated.
+
+Font hierarchy
+
+Use approximately:
+
+Main Title       → 48–64px / very bold / decorative
+School Name      → 24–30px / rounded bold
+Date / Day       → 20–26px / bold
+Table Header     → 20–24px / bold
+Table Content    → 18–24px / bold
+Notes            → 16–20px / rounded
+Small decorative → 12–16px
+
+For a generated image, scale these proportionally rather than strictly following pixel values.
+
+2. Background
+
+The background is not a plain solid color.
+
+It should look like a cute illustrated notebook / diary page.
+
+Base
+
+Use an off-white / warm cream paper background:
+
+#FFFDF5
+
+or something close to:
+
+#FFFDF2
+#FFFCEB
+
+The paper should have a very subtle texture.
+
+Notebook appearance
+
+The design should resemble a spiral-bound diary/notebook.
+
+On the left edge:
+
+Several spiral binding rings
+Dark gray/purple outlines
+White/gray paper loops
+Visible vertical notebook binding
+
+This gives the impression that the page is physically inside a notebook.
+
+Background decorations
+
+Around the page, add soft children's illustrations:
+
+Green leaves
+Small flowers
+Tiny stars
+Sparkles
+Hearts
+Colorful stationery
+Small doodles
+Pastel paper notes
+Books
+Pencil cup
+Bunny
+Plants
+
+These should remain secondary decorations.
+
+Important:
+
+The decorations must not compete with the diary content.
+
+The central area must remain clean and readable.
+
+Top-left decoration
+
+Use a botanical illustration:
+
+Green leaves
+White flowers
+Yellow flower centers
+Hand-painted appearance
+Top-right decoration
+
+A small sticky note / memo paper.
+
+Example:
+
+Grow
+every
+day!
+♡
+
+The sticky note should be slightly rotated and attached with a paper clip.
+
+Bottom area
+
+Create a desk-like illustrated composition:
+
+Stack of colorful books
+Pencil holder
+Flowers
+Leaves
+Small bunny reading a book
+Stationery
+
+This makes the entire design feel like a child's study desk / school diary.
+
+3. Icons & Illustrations
+
+Use cute hand-drawn cartoon icons, not modern flat UI icons.
+
+The icon style should look like:
+
+Children's educational workbook + watercolor/cartoon sticker illustrations.
+
+Date icon
+
+Use a cute calendar:
+
+Pink/red top
+White calendar body
+Small gray/purple squares
+Slightly tilted
+Black/dark outline
+Day icon
+
+Use a colorful calendar illustration with:
+
+Pink
+Yellow
+Blue
+Green
+Purple
+Class icon
+
+Use a small alarm clock.
+
+Table icons
+
+Small decorative illustrations can appear inside table cells.
+
+Examples:
+
+Math
+
+Apples
+Number 5
+Small colored dots
+Pencil
+Calculator-like educational doodles
+
+Islamic Studies
+
+Mosque
+Crescent moon
+Stars
+Islamic architectural illustration
+Other decorative icons
+
+Use:
+
+⭐ Stars
+✨ Sparkles
+❤️ Hearts
+🌸 Flowers
+🌿 Leaves
+🐰 Bunny
+📚 Books
+✏️ Pencil
+🎨 Palette
+⏰ Alarm clock
+📅 Calendar
+🌈 Small colorful doodles
+
+But do not use standard emoji glyphs as the primary visual style.
+
+Instead, use illustrated versions of these objects.
+
+For example, don't simply render:
+
+⭐
+🌸
+🐰
+
+Prefer a small hand-drawn sticker-style illustration.
+
+4. Table Styling
+
+The table is one of the most important components.
+
+It should look like a children's school timetable, not a normal HTML/data table.
+
+Table shape
+
+Use:
+
+Large rounded outer corners
+Rounded outer border
+Soft purple/lavender background
+Thick but soft outline
+
+Approximately:
+
+border-radius: 20px;
+
+The table should have a slightly illustrated / scrapbook feel.
+
+Header
+
+The header row has a lavender/purple background.
+
+Approximate color:
+
+#BBA6E8
+
+or:
+
+#B9A2E5
+
+Header text:
+
+Period | Subject | Lesson Details
+
+Use:
+
+Dark navy/black
+Bold
+Rounded handwritten font
+Center aligned
+Table body
+
+The body uses very soft pastel colors.
+
+Main background:
+
+#F1EDFA
+
+or very light lavender.
+
+Some rows/cells can have slightly different pastel shades.
+
+Avoid strong saturated colors.
+
+Borders
+
+Borders should be:
+
+Medium thickness
+Purple/lavender
+Rounded where possible
+Clearly visible
+Soft rather than harsh
+
+Approximate:
+
+border: 2px solid #8F78C5;
+
+The table should have a friendly illustrated appearance, not a corporate spreadsheet appearance.
+
+Cell contents
+
+The cells can contain small illustrations.
+
+For example:
+
+Period column
+1st
+⏰
+
+2nd
+🎨
+
+3rd
+⭐
+📖
+
+But again, use illustrated sticker-like icons rather than plain emoji.
+
+Lesson Details
+
+The lesson text should be prominent.
+
+Example:
+
+Class Test ⭐
+
+and:
+
+সংখ্যা লিখ (০০–৪০)
+write in numbers (30–40)
+
+Small decorative objects can sit around the text.
+
+5. Color Palette
+
+The design uses pastel colors, NOT bright primary colors.
+
+This is very important.
+
+Primary palette
+
+Use:
+
+Purpose	Color
+Paper	Warm cream / off-white
+Purple	Soft lavender
+Pink	Soft baby pink
+Green	Pastel/mint green
+Yellow	Soft golden yellow
+Blue	Powder/light blue
+Peach	Soft peach
+Text	Dark charcoal
+Illustration outlines	Dark brown / muted navy
+Approximate colors
+Paper:
+#FFFDF5
+
+Lavender:
+#B9A6E5
+
+Light Lavender:
+#EEE9F8
+
+Pink:
+#F5A7C7
+
+Light Pink:
+#F9D7E5
+
+Mint Green:
+#C9E8D0
+
+Light Blue:
+#C9E5F3
+
+Soft Yellow:
+#F7D96B
+
+Peach:
+#F6C5A5
+
+Dark Text:
+#171717
+
+Muted Blue:
+#4A7891
+
+Dark Illustration Outline:
+#4B3D3A
+Important color rule
+
+Avoid colors like:
+
+#FF0000
+#0000FF
+#00FF00
+
+The design should never feel neon or overly saturated.
+
+Instead, use:
+
+pastel + warm + soft + slightly muted colors.
+
+6. Overall Visual Style
+
+Tell the agent to follow this style:
+
+Cute children's illustrated school diary / scrapbook / notebook aesthetic.
+
+The visual language should combine:
+
+Children's workbook
++
+Handwritten diary
++
+Watercolor illustration
++
+Pastel stationery
++
+Cute classroom decorations
++
+Scrapbook
+
+It should feel like something a Nursery student's teacher or parent designed specially for the child.
+
+7. Important Layout Structure
+
+The page should follow approximately this hierarchy:
+
+┌──────────────────────────────────────┐
+│ 🌸                         📝        │
+│                                      │
+│              Diary                   │
+│                                      │
+│ 📅 Date: ........     📅 Day: ...... │
+│ ⏰ Class: Nursery D                  │
+│                                      │
+│        SCHOOL NAME                   │
+│                                      │
+│ ┌────────┬─────────┬───────────────┐ │
+│ │ Period │ Subject │ Lesson Details│ │
+│ ├────────┼─────────┼───────────────┤ │
+│ │  1st   │         │ Class Test ⭐ │ │
+│ │  ⏰     │  গণিত   │               │ │
+│ ├────────┤         │ সংখ্যা লিখ... │ │
+│ │  2nd   │         │ 🍎 5          │ │
+│ │  🎨     │         │               │ │
+│ ├────────┼─────────┼───────────────┤ │
+│ │  3rd   │ ইসলাম    │ হরফ শিক্ষা   │ │
+│ │  ⭐📖   │ শিক্ষা   │ 🕌            │ │
+│ └────────┴─────────┴───────────────┘ │
+│                                      │
+│ ┌──────────────────────────────────┐ │
+│ │ 🌸 Note: Students should...      │ │
+│ └──────────────────────────────────┘ │
+│                                      │
+│       Prepared by: ________          │
+│                                      │
+│ 📚        ✏️        🐰📖             │
+└──────────────────────────────────────┘
+8. Shadows & Depth
+
+Use very soft shadows.
+
+Elements such as:
+
+Sticky notes
+Table
+Books
+Bunny
+Pencil cup
+Calendar
+
+can have subtle shadows.
+
+Example:
+
+box-shadow:
+0 4px 12px rgba(80, 60, 80, 0.10);
+
+Avoid heavy modern UI shadows.
+
+The page should look soft and physical, almost like paper and stickers.
+
+9. Illustration Style
+
+All illustrations should have:
+
+Hand-drawn outlines
+Slightly imperfect shapes
+Soft watercolor-like fills
+Rounded shapes
+Children's book aesthetic
+Minimal detail
+Pastel colors
+
+Avoid:
+
+Photorealistic images
+3D renders
+Corporate vector illustrations
+Sharp geometric icons
+Neon colors
+Modern SaaS-style illustrations
+10. Most Important Instruction for the Agent
+
+You can give your coding agent this as the final visual directive:
+
+Create the page as a cute, premium-quality children's school diary that looks like a digitally illustrated physical notebook. Use warm cream paper, pastel lavender/pink/mint/blue/yellow colors, rounded handwritten typography, hand-drawn sticker-style illustrations, floral decorations, notebook spiral binding, soft shadows, rounded timetable cells, and playful educational doodles. The central content must remain clean and highly readable. Do not make it look like a conventional website dashboard or a standard HTML table. It should feel like a personalized Nursery student's illustrated diary page.
+
+One more important point for your website
+
+Since your goal is to fill a form → generate a downloadable diary image, I would tell the agent to treat the diary itself as a fixed visual template, while these parts remain dynamic:
+
+Date
+Day
+Class
+School Name
+Period
+Subject
+Lesson Details
+Note
+Prepared By
+
+The decorations, typography, table design, colors, background and illustrations should remain consistent regardless of the form data. This will make every generated diary look like the same professionally designed diary series.
